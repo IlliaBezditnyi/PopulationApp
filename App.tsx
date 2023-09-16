@@ -1,4 +1,4 @@
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 import store from './src/store';
 import PopulationScreen from './src/screens/PopulationScreen';
 

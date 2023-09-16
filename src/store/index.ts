@@ -9,5 +9,6 @@ const store = configureStore({
 
 export default store;
 
+// Define two additional types for creating custom hooks based on them.
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;

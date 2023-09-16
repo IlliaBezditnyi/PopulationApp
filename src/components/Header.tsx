@@ -4,6 +4,7 @@ import { HeaderProps } from '../types'
 
 const Header: FC<HeaderProps> = ({ title }) => {
   const { textStyle, viewStyle } = styles
+
   return (
     <View style={viewStyle}>
       <Text style={textStyle}>{title}</Text>
