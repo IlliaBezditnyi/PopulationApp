@@ -13,7 +13,7 @@ const Header: FC<HeaderProps> = ({ title }) => {
 
 const styles = StyleSheet.create({
   viewStyle: {
-    backgroundColor: '#717E8E',
+    backgroundColor: '#293241',
     justifyContent: "flex-end",
     paddingLeft: 22,
     paddingBottom: 10,

@@ -1,10 +1,9 @@
 import { createSlice, createAsyncThunk, AnyAction, PayloadAction } from '@reduxjs/toolkit';
 
 type Nation = {
-  id: number;
-  nation: string;
-  year: string;
-  population: number;
+  Nation: string;
+  Year: string;
+  Population: number;
 }
 
 export const fetchNations = createAsyncThunk<Array<Nation>, undefined, {rejectValue: string}>(
@@ -25,7 +24,7 @@ export const fetchNations = createAsyncThunk<Array<Nation>, undefined, {rejectVa
 const nationSlice = createSlice({
   name: 'nations',
   initialState: {
-    list: [{}],
+    list: [{Year: '', Population: 0}],
     loading: false,
     error: '',
   },
